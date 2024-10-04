@@ -1,0 +1,90 @@
+Завдання 1
+#include <iostream>
+
+int main() { 
+
+ const char* message = "Hello, World!"; 
+
+ std::cout << message << std::endl; 
+
+ return 0; 
+
+} 
+4.2.4. 
+4.2.4.3. Варіант 3
+
+ #include <iostream>
+
+using namespace std;
+
+int main() {
+
+  int num1, num2, product;
+
+  cout << "Введіть перше число: ";
+
+  cin >> num1;
+
+  cout << "Введіть друге число: ";
+
+  cin >> num2;
+
+  product = num1 * num2;
+
+  cout << "Добуток: " << product << endl;
+
+  return 0;
+
+}
+2) #include <iostream>
+
+using namespace std;
+
+int main() {
+
+  double base1, base2, height, area;
+
+  cout << "Введіть довжину першої паралельної сторони: ";
+
+  cin >> base1;
+
+  cout << "Введіть довжину другої паралельної сторони: ";
+
+  cin >> base2;
+
+  cout << "Введіть висоту трапеції: ";
+
+  cin >> height;
+
+  area = 0.5 * (base1 + base2) * height;
+
+  cout << "Площа трапеції: " << area << endl;
+
+  return 0;
+
+}
+
+3) #include <iostream>
+
+using namespace std;
+
+int main() {
+
+  double purchasePrice, profitPercentage, profit;
+
+  cout << "Введіть вартість покypки: ";
+
+  cin >> purchasePrice;
+
+  cout << "Введіть відсоток прибутку: ";
+
+  cin >> profitPercentage;
+
+  profit = purchasePrice * (profitPercentage / 100);
+
+  cout << "Сума прибутку: " << profit << endl;
+
+  return 0;
+
+}
+
