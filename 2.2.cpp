@@ -10,7 +10,7 @@ int main() {
     cin >> N;
 
     double sum = 0;
-    int max = INT_MAX; 
+    int max = INT_MIN; 
     int min = numeric_limits<int>::max();
 
     cout << "Введіть " << N << " цілих чисел: ";
