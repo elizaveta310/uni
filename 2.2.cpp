@@ -1,5 +1,6 @@
 #include <iostream>
 #include <limits>
+#include <climits>
 
 using namespace std;
 
@@ -9,7 +10,7 @@ int main() {
     cin >> N;
 
     double sum = 0;
-    int max = numeric_limits<int>::min();
+    int max = INT_MAX; 
     int min = numeric_limits<int>::max();
 
     cout << "Введіть " << N << " цілих чисел: ";
