@@ -13,7 +13,7 @@ int main() {
     int intResult = sum(5, 7); 
     cout << "Сума цілих чисел: " << intResult << endl;
   
-    double doubleResult = sum(5.5, 7.5);  
+    double doubleResult = sum(5.5, 7.7);  
     cout << "Сума подвійних чисел: " << doubleResult << endl;
 
     return 0;
