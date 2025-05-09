@@ -1,9 +1,8 @@
 
 #include <iostream>
 #include <string>
-#include <limits>  // Для numeric_limits
-#include <stdexcept> // Для std::invalid_argument
-
+#include <limits>  
+#include <stdexcept> 
 using namespace std;
 
 struct Student {
